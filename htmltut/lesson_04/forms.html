@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="">Enter Username:</label>
+        <input type="text" name="" id=""><br>
+
+        <label for="">Enter Email:</label>
+        <input type="email" name="" id=""><br>
+
+        <label for="">Enter Password:</label>
+        <input type="password" name="" id=""><br>
+
+        <label for="">Gender:</label><br>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label><br>
+        <input type="radio" name="gender" id="other"><label for="other">Other</label><br>
+
+        <label>Favorite Food:</label><br>
+        <input type="checkbox" name="rice" id="rice"><label for="rice">Rice</label><br>
+        <input type="checkbox" name="beans" id="beans"><label for="beans">Beans</label><br>
+        <input type="checkbox" name="garri" id="garri"><label for="garri">Garri</label><br>
+        <input type="checkbox" name="yam" id="yam"><label for="yam">Yam</label><br>
+
+        <label for="favcolor">Choose Color:</label><br>
+        <input type="color" name="favcolor" id="favcolor"><br>
+
+        <label for="birthday">What is your birthday?</label>
+        <input type="date" name="birthday" id="birthday"><br><br>
+
+        <!-- Using Min and Max to add restrictions -->
+        <label for="datemax">Enter a date before 2023-01-01:</label>
+        <input type="date" name="datemax" id="datemax" max="2022-12-31">
+        <br><br>
+        <label for="datemin">Enter a date after 2000-01-01</label>
+        <input type="date" name="datemin" id="datemin" min="2000-01-02">
+        <br><br>
+
+        <!-- Datetime-Local -->
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" name="birthdaytime" id="birthdaytime">
+        <br><br>
+
+        <!-- File Upload -->
+        <label for="myfile">Select a file:</label>
+        <input type="file" name="myfile" id="myfile">
+        <br><br>
+
+        <!-- Input type Month -->
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" name="bdaymonth" id="bdaymonth">
+        <br><br>
+
+        <!-- Input type Number -->
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" name="quantity" id="quantity" min="1" max="5">
+        <br><br>
+
+        <!-- Input Button -->
+        <input type="button" value="Click button">
+
+        <!-- Input Submit -->
+        <input type="submit" value="Submit">
+
+        <!-- Input Reset -->
+        <input type="reset" value="Reset">
+        <br><br>
+
+        <!-- Input Search -->
+        <label for="gsearch">Search Google:</label>
+        <input type="search" name="gsearch" id="gsearch">  
+        <br><br>
+
+        <!-- Input Tel -->
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+        <br><br>
+
+        <!-- Select -->
+        <select name="cars" id="cars">
+            <option value="toyota">Toyota</option>
+            <option value="nissan">Nissan</option>
+            <option value="bmw">BMW</option>
+        </select>
+
+    </form>
+
+    <div style="margin-top: 500px;"></div>
+</body>
+</html>

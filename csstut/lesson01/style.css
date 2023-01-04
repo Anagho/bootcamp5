@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+p.center {
+    color: red;
+    text-align: center;
+}
+
+div.center {
+    color: green;
+    text-align: center;
+}
+/* comment */
+body {
+    background-color: lightblue;
+}

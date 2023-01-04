@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline & Block Elements</title>
+
+    <style>
+      p {
+        border: 1px solid green;
+      }
+      p span {
+        background-color: green;
+        color: white;
+      }
+      div {
+        margin: 200px 0;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+        display: flex;
+      }
+
+        
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111111;
+
+      }
+
+      .city {
+        background-color: tomato;
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .city .main {
+        text-align: center;
+      }
+
+      .note {
+        font-size: 120%;
+        color: red;
+      }
+
+      #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    <p>Hello World, <span>I am a programmer</span></p>
+    <div>Hello World</div>
+
+    <div class="city">
+      <h2 class="main">London</h2>
+      <p>London is the capital of England.</p>
+    </div>
+
+    <div class="city">
+      <h2>Paris</h2>
+      <p>Paris is the capital of France.</p>
+    </div>
+
+    <div class="city">
+      <h2>Tokyo</h2>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+    <h1>My <span class="note">Important</span> Heading</h1>
+    <p>This is some <span class="note">important</span> text.</p>
+
+    <h1 id="myHeader">My Header</h1>
+
+    <div id="home">
+        <h2>Welcome to HT Academy</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum facilis magnam sed enim eos ipsum reiciendis voluptas, fugit modi molestias asperiores quae omnis laborum tempora qui consectetur minus nam tempore similique harum adipisci vitae. Cum quibusdam temporibus dolorem. In suscipit quae quibusdam tempora officia esse pariatur corrupti inventore repudiandae commodi consequuntur id nulla sunt blanditiis ab, asperiores facilis vero nisi, modi nostrum autem quaerat exercitationem tempore sequi. Alias reprehenderit totam provident aut minima numquam dignissimos repellendus quasi, nemo ipsam. Voluptas corporis quibusdam beatae consequuntur. Officiis, debitis fugiat iure veritatis laborum autem, dolor illo ea eos nam fugit, quaerat commodi dolore.</p>
+    </div>
+
+    <div id="news">
+        <h2>Latest News</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt eligendi ex ratione quibusdam tenetur fugit saepe velit aliquam. Autem ratione perspiciatis voluptas dolor corrupti esse officia magnam sit aspernatur? Dolorem perferendis illo quidem rem quibusdam porro consequatur ipsa animi possimus, amet numquam. Quis necessitatibus, et officia molestiae qui expedita quisquam minus temporibus ut magnam. Consequatur molestiae libero dolorem quam iste accusamus dignissimos perferendis iure sunt facilis possimus id saepe maxime alias sit quasi voluptate deserunt, repellat fuga animi eius suscipit fugit? Nulla necessitatibus adipisci itaque nemo ea eum amet praesentium animi nesciunt maxime, architecto voluptates recusandae. Voluptatem, labore molestias.</p>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, minus. Tenetur quod accusantium voluptas ullam nam a quos ducimus deserunt dolores vel quibusdam ex culpa blanditiis eveniet, corrupti eos saepe quae ea deleniti nemo esse ipsam alias iure! Expedita vero doloremque labore molestias fugiat cupiditate omnis voluptas commodi? Modi officiis optio maiores repellat cumque eius, voluptatum facilis hic obcaecati in minus nesciunt reiciendis illum necessitatibus facere odit ipsa fugiat pariatur nemo? Debitis sequi quo beatae eaque accusamus aliquam enim nulla? Saepe assumenda iusto perferendis voluptatum qui doloremque, obcaecati fugiat iste dolores, eaque dignissimos asperiores quam laboriosam pariatur illum corrupti repellendus?</p>
+    </div>
+
+    <div id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima in nobis, voluptatum mollitia molestias. Quod dolore, debitis reprehenderit corporis dignissimos rerum magni ipsum consequuntur ut, suscipit, omnis amet. Sit quia excepturi perferendis tenetur sint? Tempore officiis quasi magni id, non pariatur dolorum, alias commodi optio incidunt reprehenderit laborum? Voluptate.</p>
+    </div>
+  </body>
+</html>
